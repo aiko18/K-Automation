@@ -43,6 +43,5 @@ class TestSearchField:
         for r in search_result:
             print(r.text)
 
-
     def teardown_method(self):
         self.driver.quit()
